@@ -65,7 +65,7 @@ class _PostState extends State<Post> {
           alignment: Alignment.center,
           height: MediaQuery.of(context).size.height * 0.5,
           child: Image(
-            image: AssetImage(widget.posturl),
+            image: NetworkImage(widget.posturl),
             fit: BoxFit.cover,
           ),
         ),
